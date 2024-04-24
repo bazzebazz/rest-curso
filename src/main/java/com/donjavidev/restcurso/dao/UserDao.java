@@ -13,6 +13,6 @@ public interface UserDao {
     List<User> getAll();
     User getUser(long id);
     User register(User user);
-    User update(User user);
+    User update(Long id, User user);
     void delete(long id);
 }
